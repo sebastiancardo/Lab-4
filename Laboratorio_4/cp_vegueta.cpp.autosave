@@ -1,0 +1,16 @@
+#include "cp_vegeta.h"
+
+void CP_Vegueta::poder()
+{
+    cout<<"bolas de poder por las manos vegueta "<<endl;
+}
+
+CP_Vegueta::CP_Vegueta()
+{
+
+}
+
+CP_Vegueta::~CP_Vegueta()
+{
+
+}

@@ -1,0 +1,24 @@
+#include "vegueta.h"
+#include"tes_vegueta.h"
+#include "cgp_vegeta.h"
+#include "cp_vegeta.h"
+void Vegueta::saludo()
+{
+    cout<<"hola soy vegueta "<<endl;
+}
+
+Vegueta::Vegueta()
+{
+    prt=new TES_Vegueta;
+    prt2=new CGP_Vegueta;
+    prt3=new CP_Vegueta;
+
+}
+
+Vegueta::~Vegueta()
+{
+    delete prt;
+    delete prt2;
+    delete prt3;
+
+}

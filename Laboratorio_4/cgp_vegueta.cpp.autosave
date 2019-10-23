@@ -1,0 +1,16 @@
+#include "cgp_vegeta.h"
+
+void CGP_Vegueta::patada()
+{
+    cout<<"la patada de vegueta"<<endl;
+}
+
+CGP_Vegueta::CGP_Vegueta()
+{
+
+}
+
+CGP_Vegueta::~CGP_Vegueta()
+{
+
+}
